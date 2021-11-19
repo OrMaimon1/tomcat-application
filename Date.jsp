@@ -1,7 +1,11 @@
-<html> 
-   <head><title>A Comment Test</title></head> 
-   
-   <body>
-      <p>Today's date: <%= (new java.util.Date()).toLocaleString()%></p>
-   </body> 
+<%@ page import="java.util.Date" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JSP Date</title>
+	</head>
+	<body>
+		<h1>JSP Date</h1>
+		<p>The current date is: <%= new Date() %></p>
+	</body>
 </html>
